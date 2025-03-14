@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "I constantly try to improve",
+    description: "My Tech Stack",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for development and AI/ML.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Debugging Myself",
+    description: "One Bug at a Time 🐞",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -71,37 +71,69 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    "id": 1,
+    "title": "Lazzy Foodyy",
+    "des": "In-campus delivery website built with MERN stack to solve long queue and waiting process.",
+    "img": "lazzyFoodyy.png",
+    "iconLists": [],
+    "link": "https://github-frontend-06vg.onrender.com/"
   },
   {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    "id": 2,
+    "title": "Netflix Data Analysis",
+    "des": "Analyzed Netflix movies based on genres, yearly uploads, ratings, and content distribution.",
+    "img": "NetflixDataAnalysis.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/Netflix-Analysis"
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    "id": 3,
+    "title": "Connecto",
+    "des": "Mentor-mentee platform where I implemented role-based authentication and authorization using MERN and Mailtrap.",
+    "img": "MentorMentee.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/connecTo"
   },
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    "id": 4,
+    "title": "Breast Cancer Classification Model",
+    "des": "Built an ML model using logistic regression, achieving 96% accuracy in tumor classification.",
+    "img": "BreastCancerML.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/Breast-cancer-classification-Model"
   },
+  {
+    "id": 5,
+    "title": "Saraang",
+    "des": "Cultural club website showcasing recent events and enabling certificate distribution.",
+    "img": "saraang.png",
+    "iconLists": [],
+    "link": "https://saraang-sahil-n06s-projects.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Carbon-Footprint Calculator",
+    "des": "Python-based tool calculating carbon footprints based on daily activities and consumption.",
+    "img": "CarbonFootprint.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/"
+  },
+  {
+    "id": 7,
+    "title": "Car Racing Game",
+    "des": "Developed a Unity-based car racing game with engaging gameplay mechanics.",
+    "img": "CarRacing.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/"
+  },
+  {
+    "id": 8,
+    "title": "Browser Extension",
+    "des": "Created a focus-enhancing extension to help users stay on a single tab.",
+    "img": "Extension.png",
+    "iconLists": [],
+    "link": "https://github.com/sahil-n06/distraction-free-browser-extension"
+  }
 ];
 
 export const testimonials = [
@@ -204,14 +236,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: "https://github.com/sahil-n06/",
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
+    link: "https://www.linkedin.com/in/sahil-nawaz/",
     img: "/link.svg",
   },
 ];
