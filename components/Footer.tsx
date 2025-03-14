@@ -13,7 +13,7 @@ const Footer = () => {
           Let’s code, collaborate, <span className="text-purple">and</span> conquer together! 💪
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-        "Let’s connect and build something awesome together! 🚀"
+        Let’s connect and build something awesome together! 🚀
         </p>
         <a href="mailto:mdsahil622004@gmail.com">
           <MagicButton
